@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587756838414",
+    "project_id": "supply-on-campus",
+    "storage_bucket": "supply-on-campus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587756838414:android:cd6126cf9d6c87eeca265f",
+        "android_client_info": {
+          "package_name": "com.example.supply_on_campus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0oRmRZTpOpVLuf2S10SVYLcJbj4Vfi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
