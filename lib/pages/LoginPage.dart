@@ -48,6 +48,7 @@ class Loginpage extends StatelessWidget {
               SizedBox(height: 20),
               Mybutton(
                 hint: 'Login',
+                onTap: () => Navigator.pushNamed(context, '/home'),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:supply_on_campus/pages/LoginPage.dart';
+
 import 'package:supply_on_campus/widgets/MyButton.dart';
 import 'package:supply_on_campus/widgets/MyTextField.dart';
 
@@ -54,6 +54,7 @@ class Registration extends StatelessWidget {
               SizedBox(height: 20),
               Mybutton(
                 hint: 'Create Account',
+                onTap: () => Navigator.pushNamed(context, '/home'),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

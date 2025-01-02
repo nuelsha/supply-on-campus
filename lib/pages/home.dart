@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:supply_on_campus/widgets/Card_home.dart';
+
+import 'package:supply_on_campus/widgets/nav_bar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -6,11 +9,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Supply On Campus'),
-      ),
-      body: const Center(
-        child: Text('Welcome to Supply On Campus!'),
+      body: Column(
+        children: [
+          NavBar(),
+          Column(
+            children: [
+              Row(
+                children: [CardHome()],
+              )
+            ],
+          )
+        ],
       ),
     );
   }
