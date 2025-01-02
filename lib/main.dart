@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:supply_on_campus/firebase_options.dart';
+import 'package:supply_on_campus/pages/LoginPage.dart';
+import 'package:supply_on_campus/pages/Registration.dart';
 import 'package:supply_on_campus/pages/home.dart';
 
 void main() async {
@@ -18,7 +20,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Supply On Campus',
-      home: const HomePage(),
+      home: const Registration(),
+      routes: {
+        '/home': (context) => const HomePage(),
+        '/registration': (context) => const Registration(),
+        '/login': (context) => const Loginpage(),
+      },
     );
   }
 }
