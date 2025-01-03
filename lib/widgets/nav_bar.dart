@@ -51,6 +51,11 @@ class NavBar extends StatelessWidget {
               children: [
                 GestureDetector(
                   onTap: () => Navigator.pushNamed(context, '/home'),
+                  child: Text("Home",
+                      style: TextStyle(fontSize: 18, color: Color(0xFF808080))),
+                ),
+                GestureDetector(
+                  onTap: () => Navigator.pushNamed(context, '/marketplace'),
                   child: Text("Market Place",
                       style: TextStyle(fontSize: 18, color: Color(0xFF808080))),
                 ),

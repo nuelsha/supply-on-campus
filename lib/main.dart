@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:supply_on_campus/firebase_options.dart';
 import 'package:supply_on_campus/pages/LoginPage.dart';
+import 'package:supply_on_campus/pages/Marketplace.dart';
 import 'package:supply_on_campus/pages/Registration.dart';
 import 'package:supply_on_campus/pages/home.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomePage(),
         '/registration': (context) => const Registration(),
         '/login': (context) => const Loginpage(),
+        '/marketplace': (context) => const Marketplace(),
       },
     );
   }
